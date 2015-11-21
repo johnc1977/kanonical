@@ -1,0 +1,6 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>Hello, {name}</h1>
+	<h2>/kanons/</h2>
+{/body}
