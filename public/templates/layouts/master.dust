@@ -17,7 +17,7 @@
     <div class="container">
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default">
+	  <div class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -53,13 +53,20 @@
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
-      </nav>
-		<div id="wrapper">
-            {+body /}
-        </div>
+      </div> <!-- /nav -->
+	  
+	<div class="container" id="wrapper">
+		<div class="col-sm-10">
+			{+body /}
+		</div>
+		
+		<div class="col-sm-2">
+			<h1>rhs col</h1>
+		</div>	
+	</div>
 
-    
-        <script data-main="/js/app" src="/components/requirejs/require.js"></script>
+	
+    <script data-main="/js/app" src="/components/requirejs/require.js"></script>
     </div> <!-- /container -->
 
 

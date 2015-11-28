@@ -1,0 +1,44 @@
+db.kanons.insert({
+	'title':'Pink Floyd songs',
+	'created_time':new Date(),
+	'created_by':'an_user1',
+	'items':[
+		{
+			'name':'Wish you were here',
+			'url':'https://www.youtube.com/watch?v=IXdNnw99-Ic',
+			'created_by':'an_user2',
+			'vote':5,
+			'last_voted':new Date()
+		},
+		{
+			'name':'Money',
+			'url':'https://www.youtube.com/watch?v=JkhX5W7JoWI',
+			'created_by':'an_user1',
+			'vote':4,
+			'last_voted':new Date()
+		}
+	]
+});
+
+
+db.kanons.insert({
+	'title':'purnk fleurd serngs',
+	'created_time':new Date(),
+	'created_by':'an_user1',
+	'items':[
+		{
+			'name':'Wish you were here',
+			'url':'https://www.youtube.com/watch?v=IXdNnw99-Ic',
+			'created_by':'an_user2',
+			'vote':5,
+			'last_voted':new Date()
+		},
+		{
+			'name':'Money',
+			'url':'https://www.youtube.com/watch?v=JkhX5W7JoWI',
+			'created_by':'an_user1',
+			'vote':4,
+			'last_voted':new Date()
+		}
+	]
+});

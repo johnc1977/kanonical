@@ -1,0 +1,33 @@
+
+.arrow-up, .arrow-down{
+	width: 20px;
+	padding:0px;
+}
+
+.arrow-up:hover, .arrow-down:hover{
+	background:#0000ff;
+}
+
+
+.k-arrow-container{
+	float:left;
+	width:5%;
+}
+
+.k-item-container{
+	float:left;	
+	width: 70%;
+}
+
+.kanon-item-name{
+}
+
+.kanon-item-desc{
+}
+
+.kanon-well{
+	background: #fff;
+	border:1px solid black;
+	overflow:hidden;
+	padding:5px;
+}

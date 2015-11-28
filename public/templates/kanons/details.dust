@@ -1,6 +1,16 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>Hello, {name}</h1>
-	<h2>Details</h2>
+    <h1>Kanonical Pink Floyd songs</h1>
+	<div class="kanon-well">		
+		<div class="k-arrow-container">
+			<div class="up-arrow"><input type="image" src="/images/arrow_up_edit.png" name="upvote" class="arrow-up" id="arrow-up" /></div>
+			<div class="down-arrow"><input type="image" src="/images/arrow_down_edit.png" name="downvote" class="arrow-down" id="arrow-down" /></div>				
+		</div>
+
+		<div class="k-item-container">
+			<div class="kanon-item-name"><p>Comfortably Numb</p></div>
+			<div class="kanon-item-desc">Taken from Dark Side of teh Moon, In 2004, the song was ranked number 314 on Rolling Stone magazine's list of the 500 Greatest Songs of All Time</div>							
+		</div>			
+	</div>
 {/body}
